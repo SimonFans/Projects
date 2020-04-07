@@ -36,7 +36,7 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 
 
-warehouse_location = abspath('/user/wzeng/wzeng_hiveDB.db')
+warehouse_location = abspath('/user/xx/xx_hiveDB.db')
 
 spark = SparkSession \
 .builder \
